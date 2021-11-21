@@ -19,7 +19,7 @@
  */
 typedef struct {
   unsigned char polynomial;
-  unsigned char table[0x100] = { 0 };
+  unsigned char table[0x100];
 } Sarwate;
 
 /**
